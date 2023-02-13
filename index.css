@@ -49,7 +49,7 @@ html::-webkit-scrollbar-track{
 }
   
 html::-webkit-scrollbar-thumb{
-    background: #54bab9;
+    background: #00676C;
     border-radius: .5rem;
 }
   
@@ -64,7 +64,7 @@ button{
     align-items: flex-start;
     padding: 14px 20px;
     gap: 10px;
-    background: #54bab9;
+    background: #00676C;
     border-radius: 35px;
     border-width: 0;
     color: #ffffff;
@@ -107,7 +107,7 @@ nav{
     overflow: hidden;
 } 
 /* .topnav a:active{
-border-bottom:#54BAB9 2px solid;
+border-bottom:#00676C 2px solid;
 } */
 .topnav .icon{
     display: none;
@@ -137,7 +137,7 @@ border-bottom:#54BAB9 2px solid;
     margin: 20px;
 } 
 .nav-bar ul a.active{
-    border-bottom: solid 3px #54bab9 ;
+    border-bottom: solid 3px #00676C ;
     
 }
 .mainsection{
@@ -165,7 +165,7 @@ border-bottom:#54BAB9 2px solid;
 }
 
 .main-text h1{
-    color: #54BAB9;
+    color: #00676C;
     font-size: 75px;
     letter-spacing: .04em;
 }
@@ -285,7 +285,7 @@ footer p{
 }
 
 .color-about{
-    color: #54BAB9;
+    color: #00676C;
     font-size: 4.5em;
     font-weight: 600;
     letter-spacing: .1em;
@@ -420,7 +420,7 @@ footer p{
 }
 
 .color-W{
-    color: #54BAB9;
+    color: #00676C;
     font-size: 4.5em;
     font-weight: 600;
     letter-spacing: .1em;
@@ -455,7 +455,7 @@ label{
 }
 .contact{
     font-size: 4.5em;
-    color:#54BAB9;
+    color:#00676C;
 }
 
 .us{
@@ -468,7 +468,7 @@ input {
 }
 
 input[type = submit] {
-    background-color:#54BAB9;
+    background-color:#00676C;
 }
 
 #message{
@@ -483,7 +483,7 @@ input[type = submit] {
     align-items: flex-start;
     padding: 14px 20px;
     gap: 10px;
-    background: #54bab9;
+    background: #00676C;
     border-radius: 35px;
     border-width: 0;
     color: #ffffff;

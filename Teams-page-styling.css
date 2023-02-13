@@ -3,6 +3,9 @@
 .div-heading {
   text-align: center;
 }
+.div-heading h1{
+  height: 88px;
+}
 
 .heading {
   font-size: 56px;
