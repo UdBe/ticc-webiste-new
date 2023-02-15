@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <!-- HTML Headers -->
     <meta charset="UTF-8" />
@@ -9,14 +10,14 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="Teams-page-styling.css" />
-
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
     <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
   </head>
 
   <!-- TODOS: 
@@ -25,7 +26,40 @@
     3. Add Header
     4. Add Footer
   -->
+
   <body>
+    <nav class="topnav" id="topNav">
+      <div class="nav-logo">
+        <img src="assets/image.png" alt="" srcset="">
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <a href="index.html">
+            <li>home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="how-it-works.html">
+            <li>How it Works</li>
+          </a>
+          <a class='active' href="Teams-page.html">
+            <li>Our Team</li>
+          </a>
+          <a href="contact-us.html">
+            <li>Contact us</li>
+          </a>
+
+          <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <li><i class="fa-solid fa-bars"></i></li>
+
+          </a>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <a href="https://bit.ly/tietticc"></a><button>Book a Session</button>
+      </div>
+    </nav>
     <!-- Heading -->
     <div class="div-heading">
       <h1 class="heading">Meet our <span class="accent-color">team</span></h1>
@@ -155,5 +189,57 @@
         </div>
       </div>
     </div>
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">watch</a></li>
+              <li><a href="#">bag</a></li>
+              <li><a href="#">shoes</a></li>
+              <li><a href="#">dress</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <img src="assets/ti-logo.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/4b5d41d438.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
   </body>
+
 </html>
