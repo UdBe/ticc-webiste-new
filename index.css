@@ -97,6 +97,11 @@ nav{
     width: 100vw;
 }
 
+.logo img{
+    width: 65%;
+    align-items: center;
+}
+
 .quote{
     text-align: center;
     margin-top: 2em;
@@ -146,8 +151,9 @@ border-bottom:#00676C 2px solid;
     align-items: center;
     width: 100vw;
 }
+
 .main{
-    background-color: #FBF8F1;
+    background: rgba(247, 236, 222, 0.2);
      width: 90vw; 
     /* background: #FBF8F1; */
     display: flex;
@@ -247,7 +253,7 @@ footer p{
     color: #9ED2C6; 
 }
 
-.about-us{
+#about-us{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -258,9 +264,9 @@ footer p{
 
 
 .img img{
-    width: 35em;
+    width: 60em;
     height: auto;
-    margin: 0;
+    margin-left: -3em;
     overflow: hidden;
     left: 0;
 }
@@ -270,6 +276,7 @@ footer p{
     width: 60vw;
     text-align: left;
     font-family: 'Poppins', sans-serif;
+    margin-right: 10%;
 }
 
 
@@ -304,6 +311,7 @@ footer p{
     background-color: #FDFBF8;
     padding: 10em;
     font-family: 'Poppins', sans-serif;
+    margin-top: 5em;
 }
 
 .help-you-with p{
@@ -608,6 +616,9 @@ input[type = submit] {
 /* 1400 px*/
 
 @media screen and (max-width: 1400px) {
+    html{
+        font-size: 85%;
+    }
     
 .main-text h1{
     font-size: 70px;
@@ -618,11 +629,15 @@ input[type = submit] {
     font-family: 'Lato', sans-serif;
 }
 
+.img img{
+    margin-left: -5em;
+}
+
 .main-text p{
     margin: 2em 0em ;
     font-size: 1.5em;
-
 }
+
 #main-pic {
     width: 26em;
     height: auto;
@@ -665,6 +680,10 @@ button{
 /* 1300 px*/
 
 @media screen and (max-width: 1300px) {
+
+    html{
+        font-size: 80%;
+    }
     
     .main-text h1{
         font-size: 65px;
@@ -674,6 +693,10 @@ button{
         font-size: 65px;
     }
     
+    .img img{
+        margin-left: -5em;
+    }
+
     .main-text p{
         margin: 2em 0em ;
         font-size: 1.35em;
@@ -684,6 +707,7 @@ button{
         height: auto;
         border-radius: 50%;
     }
+
     
 #ticc-insta-handle{
     position: absolute;
@@ -714,6 +738,10 @@ button{
     /* 1200 px*/
 
 @media screen and (max-width: 1200px) {
+
+    html{
+        font-size: 75%;
+    }
     
     .main-text h1{
         font-size: 60px;
@@ -723,6 +751,10 @@ button{
         font-size: 60px;
     }
     
+    .img img{
+        margin-left: -7em;
+    }
+
     .main-text p{
         margin: 2em 0em ;
         font-size: 1.15em;
@@ -771,6 +803,10 @@ button{
 
 @media screen and (max-width: 1100px) {
     
+    html{
+        font-size: 75%;
+    }
+
     .main-text h1{
         font-size: 54px;
     }
@@ -784,25 +820,30 @@ button{
         font-size: 1.05em;
     
     }
+
+    .img img{
+        margin-left: -13em;
+    }
+
     #main-pic {
         width: 20em;
         height: auto;
         border-radius: 50%;
     }
 
-#ticc-insta-handle{
-    position: absolute;
-    right: 80px;
-    top: 410px; 
-    width: 12em;
-}
+    #ticc-insta-handle{
+        position: absolute;
+        right: 80px;
+        top: 410px; 
+        width: 12em;
+    }
 
-#ticc-logo{
-    position: absolute;
-    right:7px;
-    top: 180px; 
-    width: 17em;
-}
+    #ticc-logo{
+        position: absolute;
+        right:7px;
+        top: 180px; 
+        width: 17em;
+    }
     footer p{
         font-size: 16px;
         height:fit-content;
@@ -811,22 +852,36 @@ button{
         margin-right: 5em; 
         line-height: 280%;
     }
-    
+        
     .mark{
         font-size: 2.9em; 
     }
-    
+        
     button{
         padding: 10px 16px;
         gap: 2px;
         border-radius: 35px;
         background-color: #00676C;
     }
+
+    .help-you-with{
+        font-size: 75%;
+        padding: 10px;
+        margin-top: 2em;
     }
+
+    .logo{
+        margin: 0.9em;
+    }
+}
     
     /* 1020 px*/
 
 @media screen and (max-width: 1020px) {
+
+    html{
+        font-size: 80%;
+    }
     
     .main-text h1{
         font-size: 50px;
@@ -846,7 +901,11 @@ button{
         height: auto;
         border-radius: 50%;
     }
-               
+    
+    .img img{
+        margin-left: -13em;
+    }
+
 #ticc-insta-handle{
     position: absolute;
     right: 80px;
@@ -920,8 +979,9 @@ button{
     .about-us{
         font-size: 55%;
     }
-    .img{
 
+    .img img{
+        margin-left: -5em;
     }
 
     
@@ -1006,6 +1066,10 @@ button{
         height: auto;
         border-radius: 50%;
     }
+
+    .img img{
+        margin-left: -11em;
+    }
         
     #ticc-insta-handle{
         position: absolute;
@@ -1055,8 +1119,35 @@ button{
     .main-text p{
         margin: 2em 0em ;
         font-size: 0.7em;
-    
     }
+
+    .help-you-with{
+        font-size: 1em;
+    }
+
+    .help-you-with p{
+        margin: 5em 0;
+    }
+    
+    .top-logo{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo{
+        margin: 1em;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+    
+    .bottom-logo{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
     #main-pic {
         width: 11em;
         height: auto;
@@ -1068,6 +1159,10 @@ button{
         right: 80px;
         top: 300px; 
         width: 6em;
+    }
+
+    .img img{
+        margin-left: -13em;
     }
 
     #ticc-logo{
@@ -1263,7 +1358,10 @@ button{
         height: auto;
         border-radius: 50%;
     }
-    
+
+    .img img {
+        margin-left: -16em;
+    }
 #ticc-insta-handle{
     position: absolute;
     right: 70px;
