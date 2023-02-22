@@ -698,7 +698,7 @@ input[type = submit] {
 }
 
 #main-pic {
-    width: 26em;
+    width: 50em;
     height: auto;
     border-radius: 50%;
 }
@@ -1424,12 +1424,12 @@ button{
     }
     
     .main-text p{
-        margin: 1em 0em ;
+        margin: 0.5em 0em ;
         font-size: 1em;
     
     }
     #main-pic {
-        width: 10em;
+        width: 25em;
         height: auto;
         border-radius: 50%;
     }
@@ -1519,11 +1519,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 1em;
+        font-size: 1.5em;
     
     }
     #main-pic {
-        width: 9em;
+        width: 20em;
         height: auto;
         border-radius: 50%;
     }
@@ -1603,11 +1603,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 1em;
+        font-size: 1.5em;
     
     }
     #main-pic {
-        width: 9em;
+        width: 19em;
         height: auto;
         border-radius: 50%;
     }
@@ -1684,11 +1684,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 0.75em;
+        font-size: 1.25em;
     
     }
     #main-pic {
-        width: 9em;
+        width: 15em;
         height: auto;
         border-radius: 50%;
     }
@@ -1766,11 +1766,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 0.55em;
+        font-size: 1em;
     
     }
     #main-pic {
-        width: 6em;
+        width: 16em;
         height: auto;
         border-radius: 50%;
     }
