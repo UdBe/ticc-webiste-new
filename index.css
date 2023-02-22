@@ -1523,7 +1523,7 @@ button{
     
     }
     #main-pic {
-        width: 20em;
+        width: 16em;
         height: auto;
         border-radius: 50%;
     }
@@ -1578,7 +1578,7 @@ button{
     }
 
     .main-text h1{
-        font-size: 36px;
+        font-size: 26px;
     }
 
     nav{
@@ -1603,11 +1603,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 1.5em;
+        font-size: 1.2em;
     
     }
     #main-pic {
-        width: 19em;
+        width: 12em;
         height: auto;
         border-radius: 50%;
     }
@@ -1688,7 +1688,7 @@ button{
     
     }
     #main-pic {
-        width: 15em;
+        width: 12em;
         height: auto;
         border-radius: 50%;
     }
@@ -1742,6 +1742,7 @@ button{
     .main-text{
         /* border: black 2px solid; */
         padding: 1em;
+        overflow-y: hidden;
     }
     .main-text h1{
         font-size: 30px;
@@ -1770,9 +1771,10 @@ button{
     
     }
     #main-pic {
-        width: 16em;
+        width: 8em;
         height: auto;
         border-radius: 50%;
+        overflow-y: hidden;
     }
     
 #ticc-insta-handle{

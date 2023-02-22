@@ -5,7 +5,7 @@ html, body {
   
   .pic-ctn {
     width: 100vw;
-    height: auto;
+    height: 50vh;
     overflow-y: hidden;
   }
   
