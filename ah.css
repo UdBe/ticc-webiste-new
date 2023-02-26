@@ -189,7 +189,7 @@ nav {
 }
 
 @media screen and (max-width: 950px) {
-  .topnav a:not(:first-child) {
+  .topnav a {
     display: none;
   }
 
