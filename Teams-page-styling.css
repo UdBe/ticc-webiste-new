@@ -86,7 +86,7 @@
 
 .mhsas-flex {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap:wrap;
   justify-content: space-around;
   margin-left: 20%;
   margin-right: 20%;
@@ -95,6 +95,7 @@
   text-align: center;
   padding-left: 2%;
   padding-right: 2%;
+  margin-bottom: 5%;
 }
 .mhsas-profile img {
   border-radius: 50%;
@@ -102,6 +103,10 @@
   scale: 90%;
   margin-top: 0%;
   margin-bottom: 0%;
+}
+
+.mhsas-profile #photo{
+  height: 223px;
 }
 
 .mhsas-profile h2 {
