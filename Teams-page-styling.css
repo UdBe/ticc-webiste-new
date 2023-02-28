@@ -86,7 +86,7 @@
 
 .mhsas-flex {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap:wrap;
   justify-content: space-around;
   margin-left: 20%;
   margin-right: 20%;
@@ -95,6 +95,7 @@
   text-align: center;
   padding-left: 2%;
   padding-right: 2%;
+  margin-bottom: 5%;
 }
 .mhsas-profile img {
   border-radius: 50%;
@@ -102,6 +103,10 @@
   scale: 90%;
   margin-top: 0%;
   margin-bottom: 0%;
+}
+
+.mhsas-profile #photo{
+  height: 223px;
 }
 
 .mhsas-profile h2 {
@@ -180,6 +185,7 @@
       border-radius: 50%;
       scale: 55%;
       margin-bottom: 0%;
+      margin-left: -30%;
     }
     .counsellors-icons {
       scale: 100%;
@@ -199,5 +205,28 @@
     }
   }
 
+  @media screen and (max-width: 450px) {
 
+    .counsellors-profile img {
+      border-radius: 50%;
+      scale: 45%;
+      margin-bottom: 0%;
+      margin-left: -40%;
+    }
+    .counsellors-icons {
+      scale: 100%;
+    }
   
+    .mhsas-profile img {
+      scale: 60%;
+    }
+    .div-heading p {
+      font-size: 18px;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+  
+    .team-photo {
+      width: 100%;
+    }
+  }

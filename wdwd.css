@@ -1,3 +1,8 @@
+html{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 .Main-sec {
     display: flex;
     flex-direction: column;
