@@ -225,3 +225,71 @@
       width: 100%;
     }
   }
+  @media screen and (max-width: 350px) {
+
+    .counsellors-profile img {
+      border-radius: 50%;
+      scale: 45%;
+      margin-bottom: 0%;
+      margin-left: -50%;
+    }
+    .counsellors-icons {
+      scale: 100%;
+    }
+  
+    .mhsas-profile img {
+      scale: 60%;
+    }
+
+    .div-heading p {
+      font-size: 18px;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .div-heading h1 {
+      padding-left: 0%;
+      padding-right: 0%;
+      padding-bottom: 1em;
+      font-size: 3.5em;
+    }
+  
+    .team-photo {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+
+    .counsellors-profile img {
+      border-radius: 50%;
+      scale: 35%;
+      margin-bottom: 0%;
+      margin-left: -65%;
+    }
+    .counsellors-icons {
+      scale: 100%;
+    }
+  
+    .mhsas-profile img {
+      scale: 40%;
+      margin-left: -10%;
+    }
+
+    .div-heading p {
+      font-size: 18px;
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+    .div-heading h1 {
+      padding-left: 0%;
+      padding-right: 0%;
+      padding-bottom: 1em;
+      font-size: 3.5em;
+    }
+  
+    .team-photo {
+      width: 100%;
+    }
+  }
