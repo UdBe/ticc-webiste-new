@@ -257,4 +257,31 @@ html {
         font-size: 65px;
         }
 }
-    
+
+@media only screen and (max-width: 767px){
+.f-80 {
+    font-size: 40px !important;
+}
+
+.f-120 {
+  font-size: 50px !important;
+}
+}
+.f-80 {
+  font-size: 80px;
+}
+.fw-900 {
+  font-weight: 900;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.mt-5, .my-5 {
+  margin-top: 3rem!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
