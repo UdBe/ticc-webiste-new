@@ -698,7 +698,7 @@ input[type = submit] {
 }
 
 #main-pic {
-    width: 50em;
+    width: 26em;
     height: auto;
     border-radius: 50%;
 }
@@ -1424,12 +1424,12 @@ button{
     }
     
     .main-text p{
-        margin: 0.5em 0em ;
+        margin: 1em 0em ;
         font-size: 1em;
     
     }
     #main-pic {
-        width: 25em;
+        width: 10em;
         height: auto;
         border-radius: 50%;
     }
@@ -1519,11 +1519,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 1.5em;
+        font-size: 1em;
     
     }
     #main-pic {
-        width: 16em;
+        width: 9em;
         height: auto;
         border-radius: 50%;
     }
@@ -1578,7 +1578,7 @@ button{
     }
 
     .main-text h1{
-        font-size: 26px;
+        font-size: 36px;
     }
 
     nav{
@@ -1603,11 +1603,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 1.2em;
+        font-size: 1em;
     
     }
     #main-pic {
-        width: 12em;
+        width: 9em;
         height: auto;
         border-radius: 50%;
     }
@@ -1684,11 +1684,11 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 1.25em;
+        font-size: 0.75em;
     
     }
     #main-pic {
-        width: 12em;
+        width: 9em;
         height: auto;
         border-radius: 50%;
     }
@@ -1742,7 +1742,6 @@ button{
     .main-text{
         /* border: black 2px solid; */
         padding: 1em;
-        overflow-y: hidden;
     }
     .main-text h1{
         font-size: 30px;
@@ -1767,14 +1766,13 @@ button{
     
     .main-text p{
         margin: 1em 0em ;
-        font-size: 1em;
+        font-size: 0.55em;
     
     }
     #main-pic {
-        width: 8em;
+        width: 6em;
         height: auto;
         border-radius: 50%;
-        overflow-y: hidden;
     }
     
 #ticc-insta-handle{

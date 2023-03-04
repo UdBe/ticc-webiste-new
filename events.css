@@ -1,0 +1,78 @@
+
+h1 {
+  font-size: 4vw;
+  font-family: "Lato";
+  margin: 5% auto 3%;
+  color: rgba(10, 51, 46, 1);
+  font-weight: 700;
+}
+h2 {
+  font-size: 3.3vw;
+  color: rgba(0, 103, 108, 1);
+  font-family: "Lato";
+  margin: 7.5% auto 2.5%;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2.4vw;
+  font-family: "Lato";
+  color: rgba(10, 51, 46, 1);
+  font-weight: 700;
+}
+span {
+  color: rgba(0, 103, 108, 1);
+}
+p {
+  font-family: "Poppins";
+  font-size: 1.2vw;
+  margin: 3% 0;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.event-row {
+  display: flex;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.event-row:nth-of-type(3) {
+  display: flex;
+  text-align: right !important;
+}
+.event-row-col {
+  width: 50%;
+  padding: 3%;
+}
+.event-img-div {
+  text-align: right;
+  align-items: center;
+}
+.event-img {
+  border-radius: 16px;
+  height: 100%;
+  width: 90%;
+  padding-top: 2%;
+}
+.left-align {
+  text-align: left;
+}
+
+.item img {
+  border-radius: 42px;
+  height: inherit;
+  width: 100%;
+
+}
+.carousel-control.right {
+  border-radius: 45px;
+  /* right: 6px; */
+}
+.carousel-control.left {
+  border-radius: 45px;
+}
+.padding-5{
+  padding: 5%;
+  padding-top: 0;
+}
