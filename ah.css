@@ -57,6 +57,7 @@ button {
   height: 10vh;
   align-items: center;
   justify-content: center;
+  font-family: 'Poppins';
 }
 
 button:hover {
@@ -76,10 +77,12 @@ nav {
   top: 0;
   height: 15vh;
   width: 100vw;
+  font-family: 'Poppins';
 }
 
 .topnav {
   overflow: hidden;
+  font-family: 'Poppins';
 }
 
 .topnav .icon {
@@ -99,16 +102,19 @@ nav {
   background: none;
   top: 0;
   height: 10vh;
+  font-family: 'Poppins';
 }
 
 .nav-bar ul li {
   display: inline;
+  font-family: 'Poppins';
 }
 
 .nav-bar ul a {
   padding: 0px;
   margin-right: 2vh;
   margin-left: 1vh;
+  font-family: 'Poppins';
 }
 
 .mainsection {
@@ -259,12 +265,12 @@ footer p {
 }
 
 .Main-Section p {
-  font-size: 1.9em;
+  font-size: 1.3em;
   word-spacing: 0.2em;
   margin-top: 4vh;
   text-align: center;
   text-transform: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
 }
 
 .Services {
@@ -325,13 +331,14 @@ footer p {
 .HIW-p {
   position: relative;
   text-align: center;
-  font-size: xx-large;
+  font-size: 1.5em;
   color: #555555;
+  font-family: 'Poppins';
 }
 
 /* alisha added */
 .HIW-p2 {
-  font-family: 'Merriweather';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -464,6 +471,7 @@ footer p {
   font-size: 4.5em;
   font-weight: 600;
   letter-spacing: 0.1em;
+  font-family: 'Lato';
 }
 
 .color-W {
@@ -471,6 +479,7 @@ footer p {
   font-size: 4.5em;
   font-weight: 600;
   letter-spacing: 0.1em;
+  font-family: 'Lato';
 }
 
 .line {
