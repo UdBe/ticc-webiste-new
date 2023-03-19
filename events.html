@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +17,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
-    />
+    /> 
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -27,6 +30,46 @@
     <title>Events</title>
   </head>
   <body>
+
+    <nav class="topnav" id="topNav">
+      <div class="nav-logo">
+        <img src="assets/image.png" alt="" srcset="">
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <a href="index.html">
+            <li>home</li>
+          </a>
+          <a href="index.html">
+            <li>About</li>
+          </a>
+          <a href="how-it-works.html">
+            <li>How it Works</li>
+          </a>
+          <a href="editorials.html">
+            <li>Editorials</li>
+          </a>
+          <a class='active' href="events.html">
+            <li>Events</li>
+        </a>
+          <a href="Teams-page.html">
+            <li>Our Team</li>
+          </a>
+          <a href="contact-us.html">
+            <li>Contact us</li>
+          </a>
+
+          <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <li><i class="fa-solid fa-bars"></i></li>
+
+          </a>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <a href="https://bit.ly/tietticc"></a><button>Book a Session</button>
+      </div>
+    </nav>
+
     <div class="wrapper">
       <h1>What do <span>we do?</span></h1>
       <p class="padding-5">
@@ -148,5 +191,54 @@
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col">
+                  <h4>company</h4>
+                  <ul>
+                      <li><a href="#">about us</a></li>
+                      <li><a href="#">our services</a></li>
+                      <li><a href="#">privacy policy</a></li>
+                      <li><a href="#">affiliate program</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>get help</h4>
+                  <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">shipping</a></li>
+                      <li><a href="#">returns</a></li>
+                      <li><a href="#">order status</a></li>
+                      <li><a href="#">payment options</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>online shop</h4>
+                  <ul>
+                      <li><a href="#">watch</a></li>
+                      <li><a href="#">bag</a></li>
+                      <li><a href="#">shoes</a></li>
+                      <li><a href="#">dress</a></li>
+                  </ul>
+              </div>
+              <div class="footer-col">
+                  <h4>follow us</h4>
+                  <div class="social-links">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+              </div>
+              <div class="footer-col">
+                  <img src="assets/ti-logo.png" alt="">
+
+              </div>
+          </div>
+      </div>
+  </footer>
+
   </body>
 </html>
